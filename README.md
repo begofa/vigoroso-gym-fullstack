@@ -30,8 +30,8 @@ Sistema completo de gestión de entrenamiento y nutrición para gimnasios, con i
 
 ### Frontend:
 - React 18
-- Tailwind CSS
-- Lucide React Icons
+- CSS (App.css)
+- Iconos SVG inline
 - Almacenamiento persistente
 - Diseño responsive
 

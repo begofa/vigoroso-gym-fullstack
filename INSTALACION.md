@@ -193,7 +193,7 @@ Deberías ver:
 ```json
 {
   "status": "OK",
-   "message": "API Gimnasio VIGOROSO funcionando correctamente",
+  "message": "API Gimnasio VIGOROSO funcionando correctamente",
   "timestamp": "2024-..."
 }
 ```
