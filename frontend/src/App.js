@@ -89,6 +89,19 @@ function App() {
     }
   }, []);
 
+  useEffect(() => {
+    const handleAuthLogout = () => {
+      setCurrentUser(null);
+      setView('login');
+    };
+
+    window.addEventListener('auth:logout', handleAuthLogout);
+
+    return () => {
+      window.removeEventListener('auth:logout', handleAuthLogout);
+    };
+  }, []);
+
   const handleLogin = async (email, password, isParticipant = false) => {
     setLoading(true);
     setError('');
